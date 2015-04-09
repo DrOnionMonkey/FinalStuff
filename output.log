@@ -1,0 +1,425 @@
+nohup: ignoring input
+
+> weather-news@0.0.0 start /home/ec2-user/Lab9Angular/weather-news
+> node ./bin/www
+
+[33m
+##############################################################
+#
+#   !!! MONGOOSE WARNING !!!
+#
+#   This is an UNSTABLE release of Mongoose.
+#   Unstable releases are available for preview/testing only.
+#   DO NOT run this in production.
+#
+##############################################################
+[0m
+[0mGET / [32m200 [0m11.002 ms - 1880[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m2.723 ms - -[0m
+[0mGET /posts [32m200 [0m36.876 ms - 506[0m
+[0mGET /posts [36m304 [0m3.022 ms - -[0m
+[0mPOST /posts [32m200 [0m77.058 ms - 96[0m
+[0mPOST /posts [32m200 [0m71.820 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m6.020 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.543 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m5.619 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.917 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m3.122 ms - 96[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.596 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.288 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.258 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.189 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m3.403 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.381 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.209 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.051 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.994 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.852 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.182 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.997 ms - 97[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.453 ms - 96[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.427 ms - 98[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.865 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.120 ms - 98[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m3.902 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.691 ms - 98[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.556 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.327 ms - 98[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m3.364 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.579 ms - 98[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m2.442 ms - 97[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.649 ms - 98[0m
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/upvote [32m200 [0m4.763 ms - 97[0m
+[0mGET /posts/55149e0f0b8a2fda01b34db7 [32m200 [0m3.842 ms - 97[0m
+[0mPOST /posts/55149e0f0b8a2fda01b34db7/comments [32m200 [0m87.355 ms - 214[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 0 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m5.145 ms - 117[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 1 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m3.680 ms - 117[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 2 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m3.338 ms - 117[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 3 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m3.116 ms - 117[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 4 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m3.697 ms - 117[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 5 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m3.153 ms - 117[0m
+in router.put comment upvote:
+{ post: 55149e0f0b8a2fda01b34db7,
+  body: 'Daniel is a suck up',
+  _id: 55149e520b8a2fda01b34db9,
+  __v: 0,
+  upvotes: 6 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e0f0b8a2fda01b34db7/comments/55149e520b8a2fda01b34db9/upvote [32m200 [0m2.852 ms - 117[0m
+[0mGET /posts [32m200 [0m3.335 ms - 729[0m
+[0mGET /posts/55149e0f0b8a2fda01b34db7 [32m200 [0m4.119 ms - 214[0m
+[0mGET /posts [36m304 [0m4.345 ms - -[0m
+[0mGET /posts/55149e180b8a2fda01b34db8 [32m200 [0m2.678 ms - 98[0m
+[0mPOST /posts/55149e180b8a2fda01b34db8/comments [32m200 [0m91.378 ms - 218[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Daniel\'s a brown-noser',
+  _id: 55149e700b8a2fda01b34dba,
+  __v: 0,
+  upvotes: 0 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/55149e700b8a2fda01b34dba/upvote [32m200 [0m4.786 ms - 120[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Daniel\'s a brown-noser',
+  _id: 55149e700b8a2fda01b34dba,
+  __v: 0,
+  upvotes: 1 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/55149e700b8a2fda01b34dba/upvote [32m200 [0m3.352 ms - 120[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Daniel\'s a brown-noser',
+  _id: 55149e700b8a2fda01b34dba,
+  __v: 0,
+  upvotes: 2 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/55149e700b8a2fda01b34dba/upvote [32m200 [0m4.121 ms - 120[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Daniel\'s a brown-noser',
+  _id: 55149e700b8a2fda01b34dba,
+  __v: 0,
+  upvotes: 3 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/55149e700b8a2fda01b34dba/upvote [32m200 [0m3.620 ms - 120[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Daniel\'s a brown-noser',
+  _id: 55149e700b8a2fda01b34dba,
+  __v: 0,
+  upvotes: 4 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/55149e700b8a2fda01b34dba/upvote [32m200 [0m3.779 ms - 120[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Daniel\'s a brown-noser',
+  _id: 55149e700b8a2fda01b34dba,
+  __v: 0,
+  upvotes: 5 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/55149e700b8a2fda01b34dba/upvote [32m200 [0m4.555 ms - 120[0m
+[0mGET /posts [32m200 [0m3.348 ms - 755[0m
+[0mGET /posts/55149e180b8a2fda01b34db8 [32m200 [0m2.862 ms - 218[0m
+[0mGET /posts [36m304 [0m4.167 ms - -[0m
+[0mGET /posts/55149e0f0b8a2fda01b34db7 [36m304 [0m3.326 ms - -[0m
+[0mGET /posts [36m304 [0m3.193 ms - -[0m
+[0mGET / [36m304 [0m1.995 ms - -[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m0.716 ms - -[0m
+[0mGET /posts [36m304 [0m3.493 ms - -[0m
+[0mGET /posts [36m304 [0m2.774 ms - -[0m
+[0mGET / [32m200 [0m1.985 ms - 1880[0m
+[0mGET /javascripts/angularApp.js [32m200 [0m3.719 ms - 2809[0m
+[0mGET /posts [32m200 [0m3.562 ms - 755[0m
+[0mGET /posts [32m200 [0m4.094 ms - 755[0m
+[0mGET / [32m200 [0m1.687 ms - 1880[0m
+[0mHEAD / [32m200 [0m1.336 ms - 1880[0m
+[0mGET /tmUnblock.cgi [33m404 [0m3.399 ms - 1127[0m
+[0mGET / [32m200 [0m1.186 ms - 1880[0m
+[0mHEAD / [32m200 [0m0.935 ms - 1880[0m
+[0mGET / [32m200 [0m1.053 ms - 1880[0m
+[0mHEAD / [32m- [0m- ms - -[0m
+[0mGET / [32m200 [0m1.285 ms - 1880[0m
+[0mGET /tmUnblock.cgi [33m404 [0m1.731 ms - 1127[0m
+[0mGET / [32m200 [0m1.377 ms - 1880[0m
+[0mHEAD / [32m200 [0m1.457 ms - 1880[0m
+[0mGET / [32m200 [0m9.122 ms - 1880[0m
+[0mGET /tmUnblock.cgi [33m404 [0m1.405 ms - 1127[0m
+[0mGET / [32m200 [0m0.972 ms - 1880[0m
+[0mGET /user/ [33m404 [0m1.162 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.573 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.082 ms - 1127[0m
+[0mHEAD / [32m200 [0m1.101 ms - 1880[0m
+[0mGET /user/ [33m404 [0m1.403 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.311 ms - 1127[0m
+[0mGET http://testp3.pospr.waw.pl/testproxy.php [33m404 [0m1.197 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.048 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.837 ms - 1127[0m
+[0mGET / [32m200 [0m0.837 ms - 1880[0m
+[0mGET / [32m200 [0m0.894 ms - 1880[0m
+[0mGET /admin/config.php [33m404 [0m1.406 ms - 1127[0m
+[0mPOST /login.action [33m404 [0m381.001 ms - 1127[0m
+[0mHEAD / [32m200 [0m0.830 ms - 1880[0m
+[0mGET / [32m200 [0m1.417 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m2.266 ms - 1127[0m
+[0mGET / [32m200 [0m1.538 ms - 1880[0m
+[0mGET /cgi-bin/test-cgi [33m404 [0m1.089 ms - 1127[0m
+[0mGET / [32m200 [0m0.819 ms - 1880[0m
+[0mGET /CFIDE/administrator/ [33m404 [0m1.142 ms - 1127[0m
+[0mGET / [32m200 [0m1.234 ms - 1880[0m
+[0mGET /favicon.ico [33m404 [0m0.922 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.401 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.713 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.099 ms - 1127[0m
+[0mGET / [32m200 [0m0.834 ms - 1880[0m
+[0mGET /lab6weather.html [33m404 [0m1.066 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.135 ms - 1127[0m
+[0mPOST / [33m404 [0m174.236 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.070 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.678 ms - 1127[0m
+[0mGET / [32m200 [0m2.585 ms - 1880[0m
+[0mGET / [32m200 [0m0.940 ms - 1880[0m
+[0mGET / [32m200 [0m0.814 ms - 1880[0m
+[0mHEAD / [32m200 [0m1.113 ms - 1880[0m
+[0mGET / [32m200 [0m1.333 ms - 1880[0m
+[0mGET /phpinfo.php [33m404 [0m1.352 ms - 1127[0m
+[0mGET / [32m200 [0m0.879 ms - 1880[0m
+[0mGET /javascripts/angularApp.js [32m200 [0m1.050 ms - 2809[0m
+[0mGET /posts [32m200 [0m3.327 ms - 755[0m
+[0mGET /posts [36m304 [0m2.782 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.214 ms - 1127[0m
+[0mPOST /posts [32m200 [0m69.969 ms - 86[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.276 ms - 124[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m2.184 ms - 124[0m
+[0mPUT /posts/55149e180b8a2fda01b34db8/upvote [32m200 [0m3.047 ms - 124[0m
+[0mGET /posts/55149e180b8a2fda01b34db8 [32m200 [0m3.246 ms - 218[0m
+[0mPOST /posts/55149e180b8a2fda01b34db8/comments [32m200 [0m74.134 ms - 234[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 0 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m6.862 ms - 109[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 1 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m3.552 ms - 109[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 2 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m3.472 ms - 109[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 3 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m3.088 ms - 109[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 4 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m3.866 ms - 109[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 5 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m2.619 ms - 109[0m
+in router.put comment upvote:
+{ post: 55149e180b8a2fda01b34db8,
+  body: 'Oh, I dunno',
+  _id: 551af3400b8a2fda01b34dbc,
+  __v: 0,
+  upvotes: 6 }
+In the comment schema upvote function
+in upvote Rout
+[0mPUT /posts/55149e180b8a2fda01b34db8/comments/551af3400b8a2fda01b34dbc/upvote [32m200 [0m3.701 ms - 109[0m
+[0mGET /posts [32m200 [0m3.234 ms - 869[0m
+[0mGET / [36m304 [0m0.925 ms - -[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m0.384 ms - -[0m
+[0mGET /posts [36m304 [0m2.794 ms - -[0m
+[0mGET /posts [36m304 [0m3.693 ms - -[0m
+[0mGET /posts/55149e180b8a2fda01b34db8 [32m200 [0m2.689 ms - 328[0m
+[0mGET / [36m304 [0m0.945 ms - -[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m0.354 ms - -[0m
+[0mGET /posts [36m304 [0m2.274 ms - -[0m
+[0mGET / [36m304 [0m0.840 ms - -[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m0.524 ms - -[0m
+[0mGET /posts [32m200 [0m2.781 ms - 869[0m
+[0mGET /posts [36m304 [0m3.031 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.806 ms - 1127[0m
+[0mGET /posts/55149e180b8a2fda01b34db8 [32m200 [0m3.641 ms - 328[0m
+[0mGET /posts [36m304 [0m3.313 ms - -[0m
+[0mGET /posts/55149e0f0b8a2fda01b34db7 [36m304 [0m2.345 ms - -[0m
+[0mGET /posts [36m304 [0m3.893 ms - -[0m
+[0mGET / [32m200 [0m1.028 ms - 1880[0m
+[0mGET /phpmyadmin/phpmyadmin.css.php [33m404 [0m1.208 ms - 1127[0m
+[0mHEAD / [32m200 [0m0.917 ms - 1880[0m
+[0mGET / [32m200 [0m1.000 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.130 ms - 1127[0m
+[0mGET / [32m200 [0m1.472 ms - 1880[0m
+[0mGET / [32m200 [0m1.261 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.122 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.202 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.163 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.234 ms - 1127[0m
+[0mGET / [32m200 [0m0.931 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.617 ms - 1127[0m
+[0mGET / [32m200 [0m1.277 ms - 1880[0m
+[0mGET /lab6weather.html [33m404 [0m1.710 ms - 1127[0m
+[0mGET /favicon.ico [33m404 [0m0.858 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.214 ms - 1127[0m
+[0mGET / [32m200 [0m0.944 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.072 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m2.007 ms - 1127[0m
+[0mHEAD / [32m200 [0m0.844 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.379 ms - 1127[0m
+[0mGET / [32m200 [0m1.125 ms - 1880[0m
+[0mGET /lab7html.html [33m404 [0m1.159 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.781 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.521 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.118 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.188 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.267 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.102 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.147 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.051 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.068 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.135 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.211 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.293 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m2.384 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.376 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.167 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.518 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.987 ms - 1127[0m
+[0mHEAD / [32m200 [0m1.115 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.057 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.723 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.148 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.181 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.164 ms - 1127[0m
+[0mGET /user/ [33m404 [0m1.481 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.106 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.166 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.136 ms - 1127[0m
+[0mGET /lab6weather.html [33m404 [0m1.175 ms - 1127[0m
+[0mGET / [32m200 [0m0.613 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.198 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.157 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.132 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.211 ms - 1127[0m
+[0mGET / [32m200 [0m0.929 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.555 ms - 1127[0m
+[0mHEAD / [32m200 [0m0.908 ms - 1880[0m
+[0mGET /manager/html [33m404 [0m1.075 ms - 1127[0m
+[0mGET / [32m200 [0m1.021 ms - 1880[0m
+[0mGET /wp-content/plugins/simple-ads-manager/ [33m404 [0m1.064 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.382 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.177 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.263 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.139 ms - 1127[0m
+[0mGET /manager/html [33m404 [0m1.057 ms - 1127[0m
+[0mGET / [32m200 [0m0.870 ms - 1880[0m
+[0mGET / [32m200 [0m0.910 ms - 1880[0m
+[0mHEAD /login.action [33m404 [0m1.198 ms - 1127[0m
+[0mHEAD /index.action [33m404 [0m3.267 ms - 1127[0m
+[0mHEAD /struts2.action [33m404 [0m2.962 ms - 1127[0m
+[0mHEAD /shop.action [33m404 [0m1.081 ms - 1127[0m
+[0mHEAD /login.do [33m404 [0m3.844 ms - 1127[0m
+[0mHEAD /user.action [33m404 [0m1.299 ms - 1127[0m
+[0mHEAD /test.action [33m404 [0m1.196 ms - 1127[0m
+[0mHEAD /root.action [33m404 [0m1.043 ms - 1127[0m
+[0mHEAD /admin.action [33m404 [0m1.097 ms - 1127[0m
+[0mHEAD /web.action [33m404 [0m1.038 ms - 1127[0m
+[0mHEAD /wwroot.action [33m404 [0m1.133 ms - 1127[0m
+[0mHEAD / [32m200 [0m0.830 ms - 1880[0m
+[0mGET / [32m200 [0m0.933 ms - 1880[0m
+[0mHEAD / [32m200 [0m0.837 ms - 1880[0m
+[0mGET /tmUnblock.cgi [33m404 [0m1.016 ms - 1127[0m
+[0mGET / [32m200 [0m0.872 ms - 1880[0m
+[0mGET / [32m200 [0m0.791 ms - 1880[0m
+[0mGET /javascripts/angularApp.js [32m200 [0m0.691 ms - 2809[0m
+[0mGET /posts [32m200 [0m4.468 ms - 869[0m
+[0mGET /posts [36m304 [0m2.540 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.975 ms - 1127[0m
+[0mGET /posts/55149e180b8a2fda01b34db8 [32m200 [0m3.112 ms - 328[0m
+[0mGET /posts [36m304 [0m3.268 ms - -[0m
